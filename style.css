@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.rate-container, .ty-container {
+    background-color: hsl(221, 25%, 13%);
+    width: 30%;
+    margin: 12% auto;
+    padding: 34px 34px;
+    border-radius: 20px;
+}
+.ty-container {
+    display: none;
+    text-align: center;
+}
+.rate-result {
+    background-color: hsla(216, 12%, 54%, 0.111);
+    color: hsl(25, 97%, 53%);
+    width: 56%;
+    margin: 32px auto;
+    padding: 10px;
+    border-radius: 32px;
+    font-size: 14px;
+}
+
+.icon-star, .rating{
+    background-color: hsla(216, 12%, 54%, 0.111);
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    padding: 16px 10px;
+    text-align: center;
+}
+.rating{
+    border: none;
+    color: hsl(216, 12%, 54%);
+    margin: 24px 0px 24px 0;
+    padding: 10px;
+}
+.btn5 {
+    margin: 0;
+}
+.ratinghover {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+.rating-selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+h1 {
+    color: white;
+    margin: 28px 0 10px 0;
+    font-size: 24px;
+}
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+    font-size: 14px;
+}
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    border: 0;
+    border-radius: 32px;
+    padding: 14px 0;
+}
+.submit-btnhover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+@media (max-width: 1440px) {
+    .rating{
+        margin: 24px 8px 24px 0;
+    }
+}
+@media (max-width: 1024px) {
+    .rate-container, .ty-container{
+        width: 40%;
+    }
+    .rating{
+        margin: 24px 12px 24px 0;
+    }
+}
+@media (max-width: 768px) {
+    .rate-container, .ty-container{
+        margin: 26% auto;
+        width: 56%;
+    }
+    .rating{
+        margin: 24px 17px 24px 0;
+    }
+}
+@media (max-width: 425px) {
+    .rate-container, .ty-container{
+        margin: 48% auto;
+        width: 88%;
+        padding: 32px 28px;
+    }
+    .rating{
+        width: 48px;
+        height: 48px;
+        margin: 24px 12px 24px 0;
+    }
+}
+@media (max-width: 375px) {
+    .rating{
+        width: 44px;
+        height: 44px;
+        margin: 24px 6px 24px 0;
+    }
+    p{
+        font-size: 12px;
+    }
+}
