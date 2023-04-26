@@ -44,6 +44,7 @@ body{
     color: hsl(216, 12%, 54%);
     margin: 24px 0px 24px 0;
     padding: 10px;
+    font-weight: 700;
 }
 .btn5 {
     margin: 0;
@@ -118,7 +119,7 @@ p {
     .rating{
         width: 44px;
         height: 44px;
-        margin: 24px 4px 24px 0;
+        margin: 24px 6px 24px 0;
     }
     p{
         font-size: 12px;
